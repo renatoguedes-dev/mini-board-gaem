@@ -1,0 +1,126 @@
+:root {
+    --dark-blue: #030712;
+    --green: #10b981;
+    --dark-green: hsl(160, 84%, 25%);
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 24px;
+    background-color: var(--dark-blue);
+    font-family: "Segoe UI", "Tahoma", "Geneva", "Verdana", "sans-serif";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-title {
+    color: white;
+}
+
+.messages-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid white;
+    padding: 16px;
+    border-radius: 8px;
+    min-width: 600px;
+    width: 50%;
+    max-width: 80%;
+    margin-bottom: 24px;
+}
+
+.message-card {
+    background-color: var(--green);
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.message-infos {
+    display: flex;
+    justify-content: space-between;
+    align-items: self-start;
+    color: var(--dark-blue);
+    position: relative;
+}
+
+.user-name {
+    font-size: 28px;
+    position: relative;
+    top: -5px;
+}
+
+.open-message-button {
+    margin-top: 2rem;
+    background-color: var(--dark-blue);
+    color: white;
+    border-radius: 5px;
+    padding: 16px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.message-text {
+    margin-top: 2rem;
+}
+
+.add-new-message,
+.submit-btn {
+    margin-bottom: 24px;
+    background-color: var(--green);
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 16px;
+    color: white;
+    font-size: 16px;
+}
+
+.add-new-message:hover {
+    background-color: var(--dark-green);
+}
+
+.new-message-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40%;
+}
+
+.input-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    color: white;
+}
+
+input {
+    padding: 4px 4px;
+}
+
+textarea {
+    min-width: 100%;
+    max-width: 100%;
+    padding: 4px 4px;
+}
+
+.homepage-link {
+    color: white;
+}
+
+.homepage-button {
+    color: white;
+    background-color: var(--dark-blue);
+    border: none;
+}

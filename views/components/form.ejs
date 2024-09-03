@@ -1,0 +1,28 @@
+<form action="/new" method="post" class="new-message-form">
+    <div class="input-fields">
+        <label for="author">Author</label>
+        <input
+            type="text"
+            placeholder="Author's name"
+            id="author"
+            name="authorName"
+            required
+        />
+    </div>
+
+    <div class="input-fields">
+        <label for="message">Message</label>
+        <textarea
+            rows="10"
+            type="text"
+            placeholder="Write your message here"
+            id="message"
+            name="messageText"
+            required
+        ></textarea>
+    </div>
+
+    <button class="submit-btn">Submit</button>
+</form>
+
+<%- include("homepageButton") %>

@@ -1,0 +1,13 @@
+<div class="messages-container">
+    <% for (let i = messages.length - 1; i >= 0; i--) { %>
+    <div class="message-card">
+        <div class="message-infos">
+            <span class="user-name"> <%= messages[i].user %> </span>
+            <span> <%= messages[i].added %> </span>
+        </div>
+        <a href="/messages/<%= messages[i].id %>">
+            <button class="open-message-button">Read this message</button>
+        </a>
+    </div>
+    <% } %>
+</div>
