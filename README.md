@@ -1,7 +1,5 @@
 # Mini Message Board
 
-Project: Mini Message Board
-
 This is a simple message board application where users can view, add, and display individual messages. The application features a dynamic interface that allows for easy navigation and interaction with posted messages.
 
 <p float="left" style="display: flex; gap: 15px; flex-wrap: wrap; justify-content: center;">
